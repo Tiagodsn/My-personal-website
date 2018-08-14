@@ -27,7 +27,7 @@ class Navigation extends PureComponent {
       <Scrollspy
         className="navbar-nav"
         offset={ OFFSET }
-        items={ sections }
+        items={ SECTIONS }
         currentClassName="active"
       >
         { list }
