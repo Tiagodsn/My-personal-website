@@ -1,15 +1,21 @@
-import React, { PureComponent } from "react";
+// @flow
+import React from "react";
 
-class BackgroundLink extends PureComponent {
-  render () {
-    const { background: { description, link } } = this.props;
-
-    return (
-      <a className="background-description" href={link} target="_blank">
-        { description }
-      </a>
-    )
+type Props = {
+  background: {
+    description: string,
+    link: string
   }
 }
 
-export default BackgroundLink;
+function backgroundLink(props: Props) {
+  const { background: { description, link } } = props;
+
+  return (
+    <a className="background-description" href={link} target="_blank">
+      { description }
+    </a>
+  )
+}
+
+export default backgroundLink;

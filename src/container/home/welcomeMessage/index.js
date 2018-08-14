@@ -1,15 +1,19 @@
-import React, { PureComponent } from "react";
+// @flow
+import React from "react";
 
-class WelcomeMessage extends PureComponent {
-  render () {
-    const { title, subtitle } = this.props;
-
-    return (
-      <div className="welcome-message">
-        <h1>{ title }</h1>
-        <h3>{ subtitle }</h3>
-      </div>
-    )
-  }
+type Props = {
+  title: string,
+  subtitle: string
 }
-export default WelcomeMessage;
+
+function welcomeMessage(props: Props) {
+  const { title, subtitle } = props;
+
+  return (
+    <div className="welcome-message">
+      <h1>{ title }</h1>
+      <h3>{ subtitle }</h3>
+    </div>
+  )
+}
+export default welcomeMessage;

@@ -1,13 +1,12 @@
-import React, { PureComponent } from "react";
+// @flow
+import React from "react";
 
-class ScrollDownButton extends PureComponent {
-  render() {
-    return (
-      <a href="#resume" className="scroll-down">
-        <i className="fa fa-angle-down fa-2x"></i>
-      </a>
-    )
-  }
+function scrollDownButton() {
+  return (
+    <a href="#resume" className="scroll-down">
+      <i className="fa fa-angle-down fa-2x"></i>
+    </a>
+  )
 }
 
-export default ScrollDownButton;
+export default scrollDownButton;

@@ -1,14 +1,28 @@
+// @flow
 import React, { PureComponent } from "react";
 import WelcomeMessage from './welcomeMessage';
 import ScrollDownButton from './scrollDownButton';
 import BackgroundLink from './backgroundLink';
 
-class Home extends PureComponent {
-  constructor(props) {
+type Props = {
+  data: {
+    title: string,
+    subtitle: string,
+    background: {
+      image: string,
+      description: string,
+      link: string
+    }
+  }
+};
+
+class Home extends PureComponent<Props> {
+  constructor(props: Object) {
     super(props);
     this.getStyles = this.getStyles.bind(this);
   }
 
+  /*:: getStyles: () => { backgroundImage: string } */
   getStyles() {
     const { data: { background: { image } } } = this.props;
 
