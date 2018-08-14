@@ -320,6 +320,6 @@
         }
       }
     ],
-    "conclusion": "You can also see the source code of this website on <a href=\"https://github.com/Tiagodsn/My-personal-website\" title=\"Github\">github</a>"
+    "conclusion": "You can also see the source code of this website on <a href=\"https://github.com/Tiagodsn/My-personal-website\" target=\"_blank\" title=\"Github\">github</a>"
   }
 }
