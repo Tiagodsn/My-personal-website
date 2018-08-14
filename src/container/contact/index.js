@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 import Section from '../../components/section';
-import SocialNetworks from './SocialNetworks';
+import SocialNetworks from './socialNetworks';
 
 class Contact extends PureComponent {
 
