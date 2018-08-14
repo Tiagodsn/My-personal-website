@@ -1,0 +1,325 @@
+{
+  "home": {
+    "background": {
+      "image": "https://res.cloudinary.com/artedaterra/image/upload/v1533659367/flingern_tvhdff.jpg",
+      "description": "Flingern, Düsseldorf",
+      "link": "https://www.instagram.com/p/Bgq9pKXgvWw/?taken-by=tiagodsn"
+    },
+    "title": "Olá, I’m Tiago",
+    "subtitle":"A portuguese guy living in Düsseldorf"
+  },
+  "timeline": [
+    {
+      "year": 2016,
+      "name": "Full Stack Web Developer",
+      "location": "Homelike, Cologne - Germany",
+      "tags": [
+        "Meteor",
+        "MongoDB",
+        "Node.js",
+        "LESS",
+        "Bootstrap",
+        "React",
+        "Github",
+        "Mac OS",
+        "ReactJs",
+        "GraphQL",
+        "Redux",
+        "CSS Modules"
+      ],
+      "period": "08/2016 - 12/2017"
+    },
+    {
+      "year": 2015,
+      "name": "Frontend developer",
+      "location": "Youwe, Rotterdam - Netherlands",
+      "tags": [
+        "e-commerce",
+        "magento",
+        "SCRUM",
+        "LESS",
+        "Bootstrap",
+        "Javascript",
+        "Linux",
+        "Apache",
+        "mySQL",
+        "PHP",
+        "Github",
+        "Ubuntu",
+        "Composer",
+        "Grunt"
+      ],
+      "period": "05/2015 - 05/2016"
+    },
+    {
+      "year": 2014,
+      "name": "Full Stack Web Developer",
+      "location": "Freelancer",
+      "projects": [
+        {
+          "url": "https://www.postandpin.com",
+          "description": "communication blog",
+          "name": "postandpin",
+          "year": 2018
+        },
+        {
+          "url": "https://www.artedaterra.pt",
+          "description": "digital art gallery",
+          "name": "Arte da terra",
+          "year": 2017
+        },
+        {
+          "url": "http://pmbarbosacr.com/",
+          "description": "atelier for maintenance and repair of holy art",
+          "name": "P.M.Barbosa",
+          "year": 2015
+        }
+      ],
+      "tags": [
+        "Angular",
+        "PHP",
+        "Lumen API",
+        "SASS",
+        "Bootstrap",
+        "Angular materials",
+        "Javascript",
+        "Github",
+        "Mac OS",
+        "Gulp",
+        "Wordpress"
+      ],
+      "period": "11/2014 - Present"
+    },
+    {
+      "year": 2013,
+      "name": "Web Developer & IT Coordinator",
+      "location": "LKcomunicação, Braga - Portugal",
+      "tags": [
+        "Web development",
+        "Content management system criation",
+        "Web service",
+        "Daily maintenance",
+        "Windows"
+      ],
+      "period": "11/2013 - 11/2014"
+    },
+    {
+      "year": 2008,
+      "name": "Bachelor's degree, Computer Sciences",
+      "location": "Universidade do Minho, Braga - Portugal",
+      "tags": [
+        "Algorithms and Complexity",
+        "Logic",
+        "Object-oriented programming",
+        "Concurrent Programming",
+        "Database"
+      ],
+      "period": "09/2008 - 09/2013"
+    },
+    {
+      "year": 2005,
+      "name": "Management and Programming Information Systems",
+      "location": "Escola Profissional de Braga, Braga - Portugal",
+      "tags": [
+        "Operating Systems",
+        "Computer Architecture",
+        "Communication Networks",
+        "Programming and Information Systems"
+      ],
+      "period": "09/2005 - 09/2008"
+    },
+    {
+      "year": 1992,
+      "name": "Childhood",
+      "location": "Roquebrune-Cap-Martin - France",
+      "tags": [
+        "Roquebrune-Cap-Martin",
+        "France"
+      ],
+      "period": "08/1992 - 08/2003"
+    },
+    {
+      "year": 1987,
+      "name": "The beginning",
+      "location": "Guimarães - Portugal",
+      "tags": [
+        "Guimarães",
+        "Portugal"
+      ],
+      "period": "07/10/1987"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "details": [
+        "Solid experience developing web applications with modern JavaScript frameworks or libraries (e.g React, Angular, Redux and GraphQL)",
+        "Proficient with CSS3, and the use of (pre/post)-processing platforms (SASS, LESS, POSTCSS) is not alien to me",
+        "Strong sense for UI/UX",
+        "Strong knowledge of front-end styling using modern libraries (e.g Bootstrap, angular materials)"
+      ]
+    },
+    {
+      "name": "Backend",
+      "details": [
+        "Experience with SQL or NoSQL databases (e.g. MongoDB)",
+        "Familiar with PHP and NodeJS",
+        "Experience deploying applications on Digital ocean and AWS",
+        "Good understanding of RESTful and API design"
+      ]
+    },
+    {
+      "name": "More",
+      "details": [
+        "Having worked in agile environments, I'm able to follow the SCRUM process",
+        "Experience using Git",
+        "Familiar with Webpack and Gulp/Grunt",
+        "Used to collaborate with product owners, UI and UX designers, backend developers and marketers",
+        "Familiar with SEO best practices and basic knowledge of google analytics",
+        "Experience using Wordpress"
+      ]
+    }
+  ],
+  "hobbies": {
+    "introduction": "So glad you made it until here! After sharing with you my work experience and a bit of my background, now I want you to get to know the person behind the developer.<br /><br /> I’m absolutely obsessed with <a href=\"https://instagram.com/tiagoisinthekitchen\" target=\"_blank\">cooking</a> and creating new dishes (always without following a recipe. yes, that’s me). I also love collecting vinils and <a href=\"https://open.spotify.com/user/1167130757?si=7ad0qTwDSGe5GXDq8nQIyw\" target=\"_blank\">music</a> is a great part of my life. Occasionally I will pick up a <a href=\"https://instagram.com/tiagodsn\" target=\"_blank\">camera</a> and snap interesting details of what surrounds me.",
+    "list": [
+      {
+        "img": {
+          "src": "https://res.cloudinary.com/artedaterra/image/upload/v1534239077/Romare-Projections_nlv7th.jpg",
+          "alt": "Romare - Projections"
+        },
+        "link": "https://open.spotify.com/album/3zzU2dSR6LpTlI4zd4Rgzj?si=pzDkv0PURi61bws5uHFo7Q",
+        "type": "music"
+      },
+      {
+        "img": {
+          "src": "https://res.cloudinary.com/artedaterra/image/upload/v1534238203/culinary-1_bujoog.jpg",
+          "alt": "Acai bowl"
+        },
+        "link": "https://www.instagram.com/p/BibeUEXlbTq/",
+        "type": "culinary"
+      },
+      {
+        "img": {
+          "src": "https://res.cloudinary.com/artedaterra/image/upload/v1534238972/photography-1_eictpx.jpg",
+          "alt": "bike"
+        },
+        "link": "https://www.instagram.com/p/Bg8o2WDAGAU/",
+        "type": "photography"
+      },
+      {
+        "img": {
+          "src": "https://res.cloudinary.com/artedaterra/image/upload/v1534237884/culinary-2_quaskh.jpg",
+          "alt": "Fruit salad"
+        },
+        "link": "https://www.instagram.com/p/Bie8KoQHHna/",
+        "type": "culinary"
+      },
+      {
+        "img": {
+          "src": "https://res.cloudinary.com/artedaterra/image/upload/v1534239006/photography-2_shlmpr.jpg",
+          "alt": "do not read this - graffiti"
+        },
+        "link": "https://www.instagram.com/p/Bh65xWwFFxS/?taken-by=tiagodsn",
+        "type": "photography"
+      },
+      {
+        "img": {
+          "src": "https://res.cloudinary.com/artedaterra/image/upload/v1534238936/culinary-3_aj4e6j.jpg",
+          "alt": "Mango & Maracuja"
+        },
+        "link": "https://www.instagram.com/p/BiPzs5yFDfp/",
+        "type": "culinary"
+      },
+      {
+        "img": {
+          "src": "https://res.cloudinary.com/artedaterra/image/upload/v1534237565/Alt-j-An_awesome_wave_ru2pwm.jpg",
+          "alt": "Alt-j - An awesome wave"
+        },
+        "link": "https://open.spotify.com/album/7HOzvP7Ta2lLueojdlJtdZ?si=7SKcCguFQ_GXxKpHKFfLHg",
+        "type": "music"
+      },
+      {
+        "img": {
+          "src": "https://res.cloudinary.com/artedaterra/image/upload/v1534239139/photography-3_amw874.jpg",
+          "alt": "Bird"
+        },
+        "link": "https://www.instagram.com/p/BdnUwHoH4YI/?taken-by=tiagodsn",
+        "type": "photography"
+      },
+      {
+        "img": {
+          "src": "https://res.cloudinary.com/artedaterra/image/upload/v1534237707/Gidge-Autumn_bells_tgxsfo.jpg",
+          "alt": "Gidge - Autumn bells"
+        },
+        "link": "https://open.spotify.com/album/0GGP9n1WFDvKLPo8ewdHFi?si=ZmsnGQstTFaHxAbg3yRTiw",
+        "type": "music"
+      },
+      {
+        "img": {
+          "src": "https://res.cloudinary.com/artedaterra/image/upload/v1534239109/photography-4_aogzmw.jpg",
+          "alt": "Window"
+        },
+        "link": "https://www.instagram.com/p/BhtQLJ5gpeA/?taken-by=tiagodsn",
+        "type": "photography"
+      },
+      {
+        "img": {
+          "src": "https://res.cloudinary.com/artedaterra/image/upload/v1534238072/culinary-4_usjova.jpg",
+          "alt": "sushi"
+        },
+        "link": "https://www.instagram.com/p/BjiZI5PnGW5/",
+        "type": "culinary"
+      },
+      {
+        "img": {
+          "src": "https://res.cloudinary.com/artedaterra/image/upload/v1534238871/Grandbrothers-Dilation_allwwv.jpg",
+          "alt": "Grandbrothers - Dilation"
+        },
+        "link": "https://open.spotify.com/album/08Bzvr6hInlTXU1eQFiaX7?si=Qkj1hS-jQWS6j1sG8jluUQ",
+        "type": "music"
+      }
+    ]
+  },
+  "contacts": {
+    "introduction": "Do you have any comments, questions or you just want to say \"olá\"? Do not hesitate to contact me by <a href=\"mailto:tiagodasilvaneves@gmail.com\" title=\"Email\">email</a>",
+    "socialNetworks": [
+      {
+        "icon": "fa-envelope-o",
+        "link": {
+          "href": "mailto:tiagodasilvaneves@gmail.com",
+          "title": "Email"
+        }
+      },
+      {
+        "icon": "fa-github",
+        "link": {
+          "href": "https://github.com/tiagodsn",
+          "title": "Github"
+        }
+      },
+      {
+        "icon": "fa-instagram",
+        "link": {
+          "href": "https://instagram.com/tiagodsn",
+          "title": "Instagram"
+        }
+      },
+      {
+        "icon": "fa-spotify",
+        "link": {
+          "href": "https://open.spotify.com/user/1167130757",
+          "title": "Spotify"
+        }
+      },
+      {
+        "icon": "fa-download",
+        "link": {
+          "href": "https://res.cloudinary.com/artedaterra/image/upload/v1533934132/Tiago_Neves-Resume-02082018_kow3wp.pdf",
+          "title": "Download cv"
+        }
+      }
+    ],
+    "conclusion": "You can also see the source code of this website on <a href=\"https://github.com/Tiagodsn/My-personal-website\" title=\"Github\">github</a>"
+  }
+}
