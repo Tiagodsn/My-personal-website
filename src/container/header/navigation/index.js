@@ -1,36 +1,42 @@
 import React, { PureComponent } from "react";
 import Scrollspy from 'react-scrollspy';
+import List from './list';
 
 const OFFSET = -150;
 const SECTIONS = ['home', 'resume', 'skills', 'hobbies', 'contact'];
+const ACTIVECLASS = 'active';
+
 
 class Navigation extends PureComponent {
-  constructor(props) {
+  constructor(props: Object) {
     super(props);
-    this.createList = this.createList.bind(this);
+    this.state = {
+      current: SECTIONS[0]
+    }
+    this.handleUpdate = this.handleUpdate.bind(this);
   }
 
-  createList() {
-    const { hobbies } = this.props;
+  /*:: handleUpdate: (event) => void */
+  handleUpdate(event) {
+    const { id } = event;
 
-    return SECTIONS.map((item) => (
-      <li className="nav-item" key={`navigation-item-${item}`}>
-        <a href={`#${item}`} className="nav-link">{ item }</a>
-      </li>
-    ));
+    this.setState({
+      current: id
+    });
   }
 
-  render () {
-    const list = this.createList();
+  render() {
+    const { current } = this.state;
 
     return (
       <Scrollspy
-        className="navbar-nav"
         offset={ OFFSET }
         items={ SECTIONS }
-        currentClassName="active"
+        currentClassName={ ACTIVECLASS }
+        className="navbar-nav"
+        onUpdate={this.handleUpdate}
       >
-        { list }
+        <List sections={SECTIONS} current={current} />
       </Scrollspy>
 
     )
