@@ -43,7 +43,7 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --open --mode development",
-    "build": "webpack --mode production",
+    "build": "webpack --progress --mode production",
     "flow": "flow"
   },
   "config": {
