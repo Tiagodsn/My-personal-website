@@ -11,7 +11,7 @@ import Footer from './footer';
 type Props = {
   timeline: Array<Object>,
   hobbies: Object,
-  skills: Object,
+  skills: Array<Object>,
   contacts: Object,
   home: Object,
 }
