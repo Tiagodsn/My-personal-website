@@ -1,30 +1,27 @@
-import React, { PureComponent } from 'react';
+// @flow
+import React from 'react';
+import Icon from '../../../../components/icon';
 
-class SocialLink extends PureComponent {
-  constructor(props) {
-    super(props);
-    this.getClassName = this.getClassName.bind(this);
-  }
-
-  getClassName() {
-    const { socialNetwork: { icon } } = this.props;
-
-    return `fa ${icon}`;
-  }
-
-  render() {
-    const { socialNetwork: { link: { href, title } } } = this.props;
-    const iconClassName = this.getClassName();
-
-    return (
-      <li>
-          <a href={ href } title={ title }>
-              <i className={iconClassName} />
-          </a>
-      </li>
-    )
-
+type Props = {
+  socialNetwork: {
+    icon: string,
+    link: {
+      href: string,
+      title: string
+    }
   }
 }
 
-export default SocialLink;
+function socialLink(props: Props) {
+  const { socialNetwork: { icon, link } } = props;
+
+  return (
+    <li>
+      <a {...link}>
+        <Icon type={icon} />
+      </a>
+    </li>
+  );
+}
+
+export default socialLink;

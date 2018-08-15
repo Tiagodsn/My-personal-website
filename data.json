@@ -285,35 +285,35 @@
     "introduction": "Do you have any comments, questions or you just want to say \"olá\"? Do not hesitate to contact me by <a href=\"mailto:tiagodasilvaneves@gmail.com\" title=\"Email\">email</a>",
     "socialNetworks": [
       {
-        "icon": "fa-envelope-o",
+        "icon": "envelope-o",
         "link": {
           "href": "mailto:tiagodasilvaneves@gmail.com",
           "title": "Email"
         }
       },
       {
-        "icon": "fa-github",
+        "icon": "github",
         "link": {
           "href": "https://github.com/tiagodsn",
           "title": "Github"
         }
       },
       {
-        "icon": "fa-instagram",
+        "icon": "instagram",
         "link": {
           "href": "https://instagram.com/tiagodsn",
           "title": "Instagram"
         }
       },
       {
-        "icon": "fa-spotify",
+        "icon": "spotify",
         "link": {
           "href": "https://open.spotify.com/user/1167130757",
           "title": "Spotify"
         }
       },
       {
-        "icon": "fa-download",
+        "icon": "download",
         "link": {
           "href": "https://res.cloudinary.com/artedaterra/image/upload/v1533934132/Tiago_Neves-Resume-02082018_kow3wp.pdf",
           "title": "Download cv"

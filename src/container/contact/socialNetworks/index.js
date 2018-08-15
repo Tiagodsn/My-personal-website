@@ -1,12 +1,18 @@
+// @flow
 import React, { PureComponent } from "react";
 import SocialLink from './socialLink';
 
-class SocialNetworkList extends PureComponent {
-  constructor(props) {
+type Props = {
+  socialNetworks: Array<Object>
+}
+
+class SocialNetworkList extends PureComponent<Props> {
+  constructor(props: Object) {
     super(props);
     this.createList = this.createList.bind(this);
   }
 
+  /*:: createList: () => Array<Object> */
   createList() {
     const { socialNetworks } = this.props;
 
