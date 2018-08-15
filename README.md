@@ -13,9 +13,14 @@ Your browser will automatically open a new tab pointing to `http://localhost:808
 ```
 npm run build
 ```
+### Flow check
+```
+npm run flow
+```
 ### Built With
 * [React](https://github.com/facebook/react) - JavaScript library for building user interfaces
-* [webpack](https://github.com/webpack/webpack) - A bundler for javascript and friends
+* [Webpack](https://github.com/webpack/webpack) - A bundler for javascript and friends
+* [Flow](https://github.com/facebook/flow) - Static typechecker for JavaScript
 * [SASS](https://github.com/sass/sass) - CSS preprocessor
 
 ### License
