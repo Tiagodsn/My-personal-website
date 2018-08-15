@@ -1,16 +1,18 @@
-import React, { PureComponent } from 'react';
+// @flow
+import React from 'react';
 
-class Tag extends PureComponent {
+type Props = {
+  tag: string
+}
 
-  render() {
-    const { tag } = this.props;
+function Tag(props: Props) {
+  const { tag } = props;
 
-    return (
-      <li className="event-tag-item">
-        {tag}
-      </li>
-    );
-  }
+  return (
+    <li className="event-tag-item">
+      {tag}
+    </li>
+  );
 }
 
 export default Tag;

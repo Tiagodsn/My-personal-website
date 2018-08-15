@@ -1,12 +1,18 @@
+// @flow
 import React, { PureComponent } from "react";
 import Event from './event';
 
-class Events extends PureComponent {
-  constructor(props) {
+type Props = {
+  events: Array<Object>
+}
+
+class Events extends PureComponent<Props> {
+  constructor(props: Object) {
     super(props);
     this.createList = this.createList.bind(this);
   }
 
+  /*:: createList: () => Array<Object> */
   createList() {
     const { events } = this.props;
 

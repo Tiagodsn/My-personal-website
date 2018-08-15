@@ -1,19 +1,22 @@
-import React, { PureComponent } from "react";
+// @flow
+import React from "react";
 import Section from '../../components/section';
 import Events from './events';
 
-class Timeline extends PureComponent {
+type Props = {
+  data: Array<Object>
+}
 
-  render () {
-    const { data } = this.props;
-    return (
-      <Section id="resume" title="Resume">
-        <div className="timeline">
-          <div className="row timeline-header"></div>
-          <Events events={ data }/>
-        </div>
-      </Section>
-    )
-  }
+function Timeline(props: Props) {
+  const { data } = props;
+
+  return (
+    <Section id="resume" title="Resume">
+      <div className="timeline">
+        <div className="row timeline-header"></div>
+        <Events events={ data }/>
+      </div>
+    </Section>
+  )
 }
 export default Timeline;
