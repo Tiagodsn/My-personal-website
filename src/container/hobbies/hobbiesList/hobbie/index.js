@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import Icon from './icon';
+import Icon from '../../../../components/icon';
 
 type Props = {
   hobbie: {

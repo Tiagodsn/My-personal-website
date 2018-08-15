@@ -3,19 +3,19 @@ import React, { PureComponent } from 'react';
 
 type Props = {
   type: string,
-  size: string
+  size?: string
 }
 
 class Icon extends PureComponent<Props> {
   constructor(props: Object) {
     super(props);
-    this.getSocialClass = this.getSocialClass.bind(this);
+    this.getTypeClass = this.getTypeClass.bind(this);
     this.getSizeClass = this.getSizeClass.bind(this);
     this.getClassName = this.getClassName.bind(this);
   }
 
-  /*:: getSocialClass: () => string */
-  getSocialClass() {
+  /*:: getTypeClass: () => string */
+  getTypeClass() {
     const { type } = this.props;
 
     return `fa-${type}`
@@ -24,13 +24,14 @@ class Icon extends PureComponent<Props> {
   /*:: getSizeClass: () => string */
   getSizeClass() {
     const { size } = this.props;
+    if(!size) return null;
 
     return `fa-${size}`
   }
 
   /*:: getClassName: () => string */
   getClassName() {
-    const social = this.getSocialClass();
+    const social = this.getTypeClass();
     const size = this.getSizeClass();
 
     return `fa ${social} ${size}`
@@ -40,9 +41,8 @@ class Icon extends PureComponent<Props> {
     const iconClass = this.getClassName();
 
     return (
-      <i className={ iconClass }></i>
-    )
-
+      <i className={iconClass} />
+    );
   }
 }
 
