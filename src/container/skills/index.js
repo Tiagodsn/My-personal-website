@@ -4,9 +4,7 @@ import Section from '../../components/section';
 import SkillsList from './skillsList';
 
 type Props = {
-  data: {
-    skills: Array<Object>
-  }
+  data: Array<Object>
 }
 
 function skills(props: Props) {
@@ -14,7 +12,7 @@ function skills(props: Props) {
 
   return (
     <Section id="skills" title="Skills">
-      <SkillsList {...data} />
+      <SkillsList skills={data} />
     </Section>
   )
 }

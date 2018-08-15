@@ -6,7 +6,7 @@ type Props = {
 }
 
 function detail(props: Props) {
-  const { detail } = this.props;
+  const { detail } = props;
 
   return (
     <li> { detail } </li>
