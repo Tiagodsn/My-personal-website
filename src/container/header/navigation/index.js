@@ -1,3 +1,4 @@
+// @flow
 import React, { PureComponent } from "react";
 import Scrollspy from 'react-scrollspy';
 import List from './list';
@@ -6,8 +7,11 @@ const OFFSET = -150;
 const SECTIONS = ['home', 'resume', 'skills', 'hobbies', 'contact'];
 const ACTIVECLASS = 'active';
 
+type State = {
+  current: string
+};
 
-class Navigation extends PureComponent {
+class Navigation extends PureComponent<{}, State> {
   constructor(props: Object) {
     super(props);
     this.state = {
@@ -16,8 +20,8 @@ class Navigation extends PureComponent {
     this.handleUpdate = this.handleUpdate.bind(this);
   }
 
-  /*:: handleUpdate: (event) => void */
-  handleUpdate(event) {
+  /*:: handleUpdate: (Object) => void */
+  handleUpdate(event: Object) {
     const { id } = event;
 
     this.setState({
