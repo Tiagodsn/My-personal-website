@@ -1,29 +1,39 @@
+// @flow
 import React, { PureComponent } from 'react';
 
-class Icon extends PureComponent {
-  constructor(props) {
+type Props = {
+  type: string,
+  size: string
+}
+
+class Icon extends PureComponent<Props> {
+  constructor(props: Object) {
     super(props);
     this.getSocialClass = this.getSocialClass.bind(this);
     this.getSizeClass = this.getSizeClass.bind(this);
     this.getClassName = this.getClassName.bind(this);
   }
+
+  /*:: getSocialClass: () => string */
   getSocialClass() {
-    const { type = 'instagram'} = this.props;
-    switch (type) {
-      case 'music':
-        return 'fa-spotify'
-      default:
-        return 'fa-instagram'
-    }
+    const { type } = this.props;
+
+    return `fa-${type}`
   }
 
+  /*:: getSizeClass: () => string */
   getSizeClass() {
-    const { size = '3x' } = this.props;
+    const { size } = this.props;
+
     return `fa-${size}`
   }
 
+  /*:: getClassName: () => string */
   getClassName() {
-    return `fa ${this.getSocialClass()} ${this.getSizeClass()}`
+    const social = this.getSocialClass();
+    const size = this.getSizeClass();
+
+    return `fa ${social} ${size}`
   }
 
   render() {

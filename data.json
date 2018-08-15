@@ -189,7 +189,7 @@
           "alt": "Romare - Projections"
         },
         "link": "https://open.spotify.com/album/3zzU2dSR6LpTlI4zd4Rgzj?si=pzDkv0PURi61bws5uHFo7Q",
-        "type": "music"
+        "type": "spotify"
       },
       {
         "img": {
@@ -197,7 +197,7 @@
           "alt": "Acai bowl"
         },
         "link": "https://www.instagram.com/p/BibeUEXlbTq/",
-        "type": "culinary"
+        "type": "instagram"
       },
       {
         "img": {
@@ -205,7 +205,7 @@
           "alt": "bike"
         },
         "link": "https://www.instagram.com/p/Bg8o2WDAGAU/",
-        "type": "photography"
+        "type": "instagram"
       },
       {
         "img": {
@@ -213,7 +213,7 @@
           "alt": "Fruit salad"
         },
         "link": "https://www.instagram.com/p/Bie8KoQHHna/",
-        "type": "culinary"
+        "type": "instagram"
       },
       {
         "img": {
@@ -221,7 +221,7 @@
           "alt": "do not read this - graffiti"
         },
         "link": "https://www.instagram.com/p/Bh65xWwFFxS/?taken-by=tiagodsn",
-        "type": "photography"
+        "type": "instagram"
       },
       {
         "img": {
@@ -229,7 +229,7 @@
           "alt": "Mango & Maracuja"
         },
         "link": "https://www.instagram.com/p/BiPzs5yFDfp/",
-        "type": "culinary"
+        "type": "instagram"
       },
       {
         "img": {
@@ -237,7 +237,7 @@
           "alt": "Alt-j - An awesome wave"
         },
         "link": "https://open.spotify.com/album/7HOzvP7Ta2lLueojdlJtdZ?si=7SKcCguFQ_GXxKpHKFfLHg",
-        "type": "music"
+        "type": "spotify"
       },
       {
         "img": {
@@ -245,7 +245,7 @@
           "alt": "Bird"
         },
         "link": "https://www.instagram.com/p/BdnUwHoH4YI/?taken-by=tiagodsn",
-        "type": "photography"
+        "type": "instagram"
       },
       {
         "img": {
@@ -253,7 +253,7 @@
           "alt": "Gidge - Autumn bells"
         },
         "link": "https://open.spotify.com/album/0GGP9n1WFDvKLPo8ewdHFi?si=ZmsnGQstTFaHxAbg3yRTiw",
-        "type": "music"
+        "type": "spotify"
       },
       {
         "img": {
@@ -261,7 +261,7 @@
           "alt": "Window"
         },
         "link": "https://www.instagram.com/p/BhtQLJ5gpeA/?taken-by=tiagodsn",
-        "type": "photography"
+        "type": "instagram"
       },
       {
         "img": {
@@ -269,7 +269,7 @@
           "alt": "sushi"
         },
         "link": "https://www.instagram.com/p/BjiZI5PnGW5/",
-        "type": "culinary"
+        "type": "instagram"
       },
       {
         "img": {
@@ -277,7 +277,7 @@
           "alt": "Grandbrothers - Dilation"
         },
         "link": "https://open.spotify.com/album/08Bzvr6hInlTXU1eQFiaX7?si=Qkj1hS-jQWS6j1sG8jluUQ",
-        "type": "music"
+        "type": "spotify"
       }
     ]
   },
