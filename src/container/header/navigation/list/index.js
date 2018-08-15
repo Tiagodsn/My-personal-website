@@ -24,7 +24,7 @@ class List extends PureComponent<Props> {
 
   render () {
     const list = this.createList();
-
+    
     return list;
   }
 }

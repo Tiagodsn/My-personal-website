@@ -1,34 +1,22 @@
 // @flow
-import React, { PureComponent } from "react";
+import React from "react";
 import SocialLink from './socialLink';
 
 type Props = {
   socialNetworks: Array<Object>
 }
 
-class SocialNetworkList extends PureComponent<Props> {
-  constructor(props: Object) {
-    super(props);
-    this.createList = this.createList.bind(this);
-  }
+function socialNetworkList(props: Props) {
+  const { socialNetworks } = props;
 
-  /*:: createList: () => Array<Object> */
-  createList() {
-    const { socialNetworks } = this.props;
+  const listItems = socialNetworks.map((item) =>
+    <SocialLink key={`socialNetworks-${item.icon}`} socialNetwork={item}/>
+  );
 
-    return socialNetworks.map((item) =>
-      <SocialLink key={`socialNetworks-${item.icon}`} socialNetwork={item}/>
-    );
-  }
-
-  render () {
-    const list = this.createList();
-
-    return (
-      <ul>
-        { list }
-      </ul>
-    )
-  }
+  return (
+    <ul>
+      { listItems }
+    </ul>
+  )
 }
-export default SocialNetworkList;
+export default socialNetworkList;
