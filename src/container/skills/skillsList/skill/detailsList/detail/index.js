@@ -1,13 +1,16 @@
-import React, { PureComponent } from 'react';
+// @flow
+import React from 'react';
 
-class Detail extends PureComponent {
-
-  render() {
-    const { detail } = this.props;
-    return (
-      <li> { detail } </li>
-    )
-  }
+type Props = {
+  detail: string
 }
 
-export default Detail;
+function detail(props: Props) {
+  const { detail } = this.props;
+
+  return (
+    <li> { detail } </li>
+  )
+}
+
+export default detail;

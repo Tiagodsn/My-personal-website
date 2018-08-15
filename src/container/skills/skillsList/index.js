@@ -1,16 +1,23 @@
+// @flow
 import React, { PureComponent } from "react";
 import Skill from './skill';
+import { map } from 'lodash';
 
-class SkillsList extends PureComponent {
-  constructor(props) {
+type Props = {
+  skills: Array<Object>
+}
+
+class SkillsList extends PureComponent<Props> {
+  constructor(props: Object) {
     super(props);
     this.createList = this.createList.bind(this);
   }
 
+  /*:: createList: () => Array<Object> */
   createList() {
     const { skills } = this.props;
 
-    return skills.map((item) =>
+    return map(skills, (item) =>
       <Skill key={`skills-${item.name}`} skill={item}/>
     );
   }
