@@ -10,6 +10,52 @@
   },
   "timeline": [
     {
+      "year": 2018,
+      "name": "Full Stack Web Developer",
+      "location": "Freelancer",
+      "projects": [
+        {
+          "url": "https://isaac-nutrition.de",
+          "description": "Shopify store",
+          "name": "Isaac nutrition",
+          "year": "2019"
+        },
+        {
+          "url": "https://www.postandpin.com",
+          "description": "communication blog",
+          "name": "postandpin",
+          "year": 2018
+        },
+        {
+          "url": "https://www.artedaterra.pt",
+          "description": "digital art gallery",
+          "name": "Arte da terra",
+          "year": 2017
+        },
+        {
+          "url": "http://pmbarbosacr.com/",
+          "description": "atelier for maintenance and repair of holy art",
+          "name": "P.M.Barbosa",
+          "year": 2015
+        }
+      ],
+      "tags": [
+        "Angular",
+        "PHP",
+        "Lumen API",
+        "SASS",
+        "Bootstrap",
+        "Angular materials",
+        "Javascript",
+        "Github",
+        "Mac OS",
+        "Gulp",
+        "Wordpress",
+        "Shopify"
+      ],
+      "period": "11/2014 - Present"
+    },
+    {
       "year": 2016,
       "name": "Full Stack Web Developer",
       "location": "Homelike, Cologne - Germany",
@@ -50,45 +96,6 @@
         "Grunt"
       ],
       "period": "05/2015 - 05/2016"
-    },
-    {
-      "year": 2014,
-      "name": "Full Stack Web Developer",
-      "location": "Freelancer",
-      "projects": [
-        {
-          "url": "https://www.postandpin.com",
-          "description": "communication blog",
-          "name": "postandpin",
-          "year": 2018
-        },
-        {
-          "url": "https://www.artedaterra.pt",
-          "description": "digital art gallery",
-          "name": "Arte da terra",
-          "year": 2017
-        },
-        {
-          "url": "http://pmbarbosacr.com/",
-          "description": "atelier for maintenance and repair of holy art",
-          "name": "P.M.Barbosa",
-          "year": 2015
-        }
-      ],
-      "tags": [
-        "Angular",
-        "PHP",
-        "Lumen API",
-        "SASS",
-        "Bootstrap",
-        "Angular materials",
-        "Javascript",
-        "Github",
-        "Mac OS",
-        "Gulp",
-        "Wordpress"
-      ],
-      "period": "11/2014 - Present"
     },
     {
       "year": 2013,
